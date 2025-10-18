@@ -8,7 +8,7 @@ import { Toaster } from "react-hot-toast";
 function App() {
   const token = localStorage.getItem("jwt");
   return (
-    <div>
+    <div className="bg-red-100">
       <Routes>
         <Route
           path="/"
